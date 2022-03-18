@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WICC DOM Tutorial</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body class="wrapper">
+    <section class="container">
+      <header class="header" id="header">
+        <div class="header-image">
+          <img
+            src="https://infodev.com.np/static/media/logonew.920b2087.svg"
+            alt=""
+          />
+        </div>
+        <h1 id="heading">WICC Lectures Records</h1>
+        <p>List of all the lectures completed</p>
+      </header>
+
+      <div class="lecture">
+        <form class="lecture-add" id="lecture-add">
+          <input
+            type="text"
+            name="name"
+            placeholder="Enter completed lecture name "
+          />
+          <button type="submit">Add</button>
+        </form>
+
+        <div id="lecture-list">
+          <ul>
+            <!-- <li>
+                        <p class="title">Introduction to WEB</p>
+                        <button class="remove">Remove</button>
+                    </li>
+                    <li>
+                        <p class="title">Introduction to HTML & CSS</p>
+                        <button class="remove">Remove</button>
+                    </li>
+                    <li>
+                        <p class="title">GIT and its best practices</p>
+                        <button class="remove">Remove</button>
+                    </li>
+                    <li>
+                        <p class="title">Fundamentals of Javascript</p>
+                        <button class="remove">Remove</button>
+                    </li>
+                    <li>
+                        <p class="title">Objects in Javascript</p>
+                        <button class="remove">Remove</button>
+                    </li>
+                    <li>
+                        <p class="title">Arrays in Javascript</p>
+                        <button class="remove">Remove</button>
+                    </li>
+                    <li>
+                        <p class="title">Arrays in Javascript</p>
+                        <button class="remove">Remove</button>
+                    </li> -->
+          </ul>
+        </div>
+      </div>
+    </section>
+    <script src="./index.js"></script>
+    
+    
+  </body>
+</html>
